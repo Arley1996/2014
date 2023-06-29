@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #39bbf7;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer.derechos{
+  background-color: #f7e6e6;
+  color: #ac7777;
+  padding: 10px;
+  text-align: center center;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h1 {
+  margin-top: 0;
+}
+
+#inicio {
+  background-color: #0beeaa;
+  padding: 20px;
+}
+#noticias {
+  background-color: #81e463;
+  padding: 20px;
+}
+
+#calendarios {
+  background-color: #f56464;
+  padding: 20px;
+}
+
+#equipos {
+  background-color: #4fee8c;
+  padding: 20px;
+}
+
+#federacion {
+  background-color: #8fc3ec;
+  padding: 20px;
+}
+
+#analisis {
+  background-color: #f6a8fd;
+  padding: 20px;
+}
+
+#estadio {
+  background-color: #7a9b1e;
+  padding: 20px;
+}
+
+#admin {
+  background-color: #5c1212;
+  padding: 20px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#estadio{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.sestadio{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.vertical-container img {
+  max-width: 100%;
+  height: auto;
+}
